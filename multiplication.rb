@@ -1,6 +1,6 @@
 require_relative 'operation_binary'
-class Multiplication < Binary_Operation
+class Multiplication < BinaryOperation
 def execute
-	@result=@operand_1*@Operand_2
+	@result = @operand_1 * @operand_2
 end
 end

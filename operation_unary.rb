@@ -1,8 +1,7 @@
 require_relative 'operation'
-class Unary_Operation < Operation
+class UnaryOperation < Operation
 attr_accessor :operand
-def add_operation(operand)
-operand= gets
-@operand=operand
-end
+	def add_operand(operand)
+		@operand = operand
+	end
 end

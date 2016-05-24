@@ -1,6 +1,6 @@
 require_relative 'operation_unary'
-class Square < Unary_Operation
+class Square < UnaryOperation
 	def execute
-		@result=@operand*@operand
+		@result = @operand * @operand
 	end
 end
